@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+  cadeia nome
+  inteiro idade, n1
+  real ano
+  escreva ("Salve maninho(a)!") 
+  escreva (" Qual � teu nome?")
+  leia (nome)
+  escreva ("Ol� ", nome , "  Quanto tempo tu t� na terra? ")
+  leia (idade)
+  escreva (idade ,"  Deua cibola, t�s v�io(a)!")
+  escreva (  "Em que ano estamos?")
+  leia (ano)
+  n1 = ano - idade
+  escreva ("Ent�o tu nasceu em ", n1)
+  }
+
+
+}
